@@ -1,5 +1,7 @@
 <?php
-require_once 'Bicycle.php';
+require_once 'Car.php';
 
-$bike = new Bicycle();
-var_dump($bike);
+$car = new Car('blue', 4, 'gasol');
+var_dump($car);
+
+$car->forward();
